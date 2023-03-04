@@ -14,6 +14,7 @@ public class SoftAssertTest {
 		soft.assertEquals(true, false); // even it fails then, after all codes will be executed
 		System.out.println("step3");
 		soft.assertAll();
+		//pushed in github
 	}
 	
 	@Test
